@@ -5,32 +5,33 @@ LegalEase — AI Contract Summarizer
 
 LegalEase is a Flask-based web application that uses AI to simplify complex legal documents. It generates concise summaries, detects potential risks, translates content into multiple languages, and provides audio output for accessibility.
 
-Features
+Features:
 AI Summarization: Uses BART model for concise summaries
 Multi-language Translation: Supports 100+ languages
 Text-to-Speech: Converts summaries into audio
 Risk Detection: Identifies penalties, disputes, and confidentiality clauses
 File Support: Works with .txt and .csv files
 
-Tech Stack
+Tech Stack:
 Flask, HuggingFace Transformers, Pandas, Googletrans, gTTS
 
- Setup
+Setup:
 pip install flask transformers torch pandas googletrans==4.0.0-rc1 gtts
 python app.py
 
-Usage
+Usage:
 Upload file → Select language → Get summary, translation, audio & risk analysis
 
-Use Cases
+Use Cases:
 Legal document review
+
 Contract analysis
 Learning & accessibility
 
 
-License
+License:
 MIT License
 
 
-Data Source
+Data Source:
 Legal text and case-related data were scraped from Indian Kanoon to support summarization and risk analysis.
