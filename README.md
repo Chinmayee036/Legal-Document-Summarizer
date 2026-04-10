@@ -11,8 +11,8 @@ Multi-language Translation: Supports 100+ languages
 Text-to-Speech: Converts summaries into audio
 Risk Detection: Identifies penalties, disputes, and confidentiality clauses
 File Support: Works with .txt and .csv files
-🛠️ Tech Stack
 
+Tech Stack
 Flask, HuggingFace Transformers, Pandas, Googletrans, gTTS
 
  Setup
@@ -20,7 +20,6 @@ pip install flask transformers torch pandas googletrans==4.0.0-rc1 gtts
 python app.py
 
 Usage
-
 Upload file → Select language → Get summary, translation, audio & risk analysis
 
 Use Cases
@@ -30,7 +29,8 @@ Learning & accessibility
 
 
 License
-
 MIT License
+
+
 Data Source
 Legal text and case-related data were scraped from Indian Kanoon to support summarization and risk analysis.
